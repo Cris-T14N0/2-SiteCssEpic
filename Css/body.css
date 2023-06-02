@@ -1,0 +1,26 @@
+/* Hero */
+.hero{
+    width: 100%;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero-info{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #ededed;
+}
+
+.hero-info a{
+    border: #ededed solid 1px;
+    padding: 5px  15px;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 15px;
+}
+
+/* Info */
