@@ -1,0 +1,42 @@
+/* Footer */
+
+.footer{
+    
+    padding-top: 50px;
+    font-family: 'Queensides', sans-serif;
+    background-color:rgb(88, 88, 88);
+
+}
+
+.content-footer{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.lists{
+
+    width: 90%;
+    display:flex;
+
+}
+
+.single-list{
+
+    margin-right: 15%;
+    color: white;
+    
+}
+
+.single-list a{
+
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,4 +1,5 @@
 /* Hero */
+
 .hero{
     width: 100%;
     position: relative;
@@ -9,18 +10,110 @@
 }
 
 .hero-info{
-    position: absolute;
+
     bottom: 10%;
     left: 10%;
-    color: #ededed;
+    position: absolute;
+    color: white;
+
 }
 
 .hero-info a{
-    border: #ededed solid 1px;
+
+    color: white;
+    border: white;
+    border: solid 1px;
     padding: 5px  15px;
     text-decoration: none;
-    color: #ededed;
-    font-size: 15px;
+    font-family: 'Queensides', sans-serif;
+    font-size: 20px;
+
+}
+
+.hero-info p{
+
+    font-family: 'Queensides', sans-serif;
+    font-size: 25px;
+    
 }
 
 /* Info */
+
+.title{
+
+    font-weight: bold;
+    
+}
+
+.text-info{
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+.text-info p{
+
+    font-family: 'Queensides', sans-serif;
+
+}
+
+.content{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.text {
+    text-align: center;
+}
+
+/* Info Images */
+
+.images{
+
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.images img{
+
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+    
+
+} 
+
+.img-text{
+
+    float: right;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+}
+
+.img-text p{
+
+    font-family: 'Queensides', sans-serif;
+
+}
+
+.single-img{
+    
+    bottom: 50%; 
+    left: 20px;
+    border-bottom: solid 1px rgb(250, 250, 118) ;
+    padding-bottom: 2px;
+    position: absolute;
+    
+}
+

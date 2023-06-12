@@ -3,6 +3,7 @@ body{
     background-color:white;
 }
 
+/* Cabeçalho */
 .cabecalho{
 
     font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +13,8 @@ body{
     background-color: grey;
 
 }
+
+/* Colunas */
 .col1{
 
     background-color: black;
@@ -94,12 +97,14 @@ body{
 
 }
 
+/* Linha Amarela */
 
 .yrow{
 
     display:flex;
 }
-.yellowrow{
+
+.yellowstripe{
 
     background-color:rgb(253, 184, 35);
     height: auto;
@@ -108,8 +113,11 @@ body{
 }
 
 .infosection{
+
+    margin-left: 50px;
     display: flex;
     margin-right: 10%;
+
 }
 
 .infosection i{
@@ -126,4 +134,5 @@ body{
 .infosection{
 
     font-size: 17px;
+    
 }
